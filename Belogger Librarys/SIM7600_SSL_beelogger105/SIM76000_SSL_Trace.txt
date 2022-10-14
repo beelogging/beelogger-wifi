@@ -1,0 +1,57 @@
+11:38:33.070 -> LTE SSL Mode Test 22.02.2022: 
+11:38:33.070 -> 
+11:38:33.070 ->  beelogger  SIM7600E: 
+11:38:33.117 -> 24.00
+11:38:33.117 -> Initialisiere Modul ... 
+11:38:53.941 -> Init OK
+11:38:53.941 ->  
+11:38:53.941 -> SIM7600 Modul Informationen : 
+11:38:54.041 -> 
+11:38:54.041 -> SIMCOM_SIM7600E-L1C
+11:38:54.041 -> OK
+
+11:38:54.172 -> +CGMR: LE11B04SIM7600M11_A
+11:38:54.172 -> OK
+
+11:38:54.441 -> +CPSI: LTE,Online,262-03,0xB8A2,43546625,456,EUTRAN-BAND20,6200,3,3,-200,-1061,-616,4
+11:38:54.495 -> OK
+
+11:38:54.595 -> +COPS: 0,0,"MEDIONmobile MEDIONmobile",7
+11:38:54.642 -> OK
+
+11:38:54.842 -> SIM Versorgung :  3.961V
+11:38:54.842 -> OK
+ 
+11:38:56.847 -> Verbinde zum Netzwerk ... internet.eplus.de ... Verbindung zum Netz OK
+11:39:02.067 ->  
+11:39:03.123 -> Signalstaerke : -62 dB
+11:39:04.159 -> 
+11:39:04.159 -> SSL Init!
+11:39:05.335 -> 
+11:39:05.335 -> SSL Start!
+11:39:05.335 -> 
+11:39:05.335 -> Verbinde zum Server: community.beelogger.de ...  verbunden.
+11:39:07.187 -> 
+11:39:07.187 -> GET /RudiTest/beelogger1/beelogger_log.php?
+11:39:07.966 -> Quittung : 
+11:39:07.966 -> 5Bok *
+11:39:07.966 -> Test erfolgreich
+11:39:08.013 -> 
+11:39:08.916 -> wait session close 
+11:39:11.986 -> OK
+11:39:12.233 -> Signalstaerke : -78 dB
+11:39:12.233 ->  
+11:39:12.233 ->    Senden in 1 Minute
+11:39:22.253 -> ......Verbinde zum Server: community.beelogger.de ...  verbunden.
+11:40:13.568 -> 
+11:40:13.568 -> GET /RudiTest/beelogger1/beelogger_log.php?
+11:40:14.324 -> Quittung : 
+11:40:14.324 -> 5Bok *
+11:40:14.324 -> Test erfolgreich
+11:40:14.371 -> 
+11:40:15.274 -> wait session close 
+11:40:18.336 -> OK
+11:40:18.584 -> Signalstaerke : -62 dB
+11:40:18.584 ->  
+11:40:18.584 ->    Senden in 1 Minute
+11:40:28.645 -> .

@@ -1,0 +1,182 @@
+LTE SSL Mode Test 04.09.2021: 
+
+ beelogger  SIM7600E: 
+ Pinbelegung: 
+  byte LTE_RX = 8;
+  byte LTE_TX = 9;
+
+
+20.25
+Initialisiere Modul ... 
+SSL 03-09-2021
+Timeout
+
+RDY
+Timeout
+RDY
+
+
++CPIN: READY
+
+SMS DONE
+
+PB DONSIM7600 is up
+**AT
+
+OK**ATE0
+
+OK**AT+CFUN=1
+
+OKOK
+ 
+**AT+IPREX=9600
+
+OK
+OK
+
+**AT+CBC
+
+
++CBC: 4.014V
+
+
+OK
+
+SIM Versorgung :  4.014V
+
+
+OK
+
+SIM7600 Modul Informationen : 
+**AT+CGMM
+
+SIMCOM_SIM7600E-H
+
+OK
+SIMCOM_SIM7600E-H
+
+OK
+
+**AT+CGMR
+
++CGMR: LE11B12SIM7600M22
+
+OK
++CGMR: LE11B12SIM7600M22
+
+OK
+
+ 
+**AT+CPSI?
+
++CPSI: NO SERVICE,Online
+
+OK
++CPSI: NO SERVICE,Online
+
+OK
+
+ 
+**AT+COPS?
+
++COPS: 0
+
+OK
++COPS: 0
+
+OK
+
+ 
+**AT+CSQ
+
++CSQ: 22Signalstaerke : -70 dB
+ 
+Verbinde zum Netzwerk internet.eplus.de ... **AT+CREG?
+
++CREG: 0,2
+
+OKMode:2
+**AT+CREG?
+
++CREG: 0,2
+
+OKMode:2
+**AT+CREG?
+
++CREG: 0,1
+
+OKMode:1
+**AT+CGREG?
+
++CGREG: 0,**AT+CGSOCKCONT=1,"IP","internet.eplus.de"
+
+OK**AT+CGAUTH=1,3,"eplus","eplus"
+
+OK**AT+CGPADDR
+
++CGPADDR: 1,10OK
+ 
+community.beelogger.de
+GET /RudiTest/beelogger5/beelogger_log.php?
+**AT+CCHMODE=1
+
+OK**AT+CCHSET=1
+
+OK
+
+Init!
+**AT+CCHSTART
+
+OK**AT+CCHSSLCFG=0,0
+
+OK
+
+SSL!
+**AT+CCHOPEN=0,"community.beelogger.de",443,2
+
+CONNECT 9
+
+Con!
+GET /RudiTest/beelogger5/beelogger_log.php?
+PW=Log&T1=20.3&TO=35.0
+&F1=40.0&FO=60.0&L=5000.0&S=0.00
+&G1=2.50&VB=4.70&VS=1.70&C=5164
+ HTTP/1.1
+
+Host:community.beelogger.de
+
+Content-Type: text/html
+
+Proxy-Connection: keep-alive
+
+
+00
+HTTP/1.1 200 OK
+Date: Thu, 11 Nov 2021 10:45:02 GMT
+Server: Apache
+Upgrade: h2,h2c
+Connection: Upgrade
+Vary: Accept-Encoding,User-Agent
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+f
+15Bok Quittung : 
+15Bok *
+Test erfolgreich
++++
+  
+    
+
+0
+
+
+OKwait session close 
+**AT+CCHCLOSE=0
+
+OKOK
+**AT+CSQ
+
++CSQ: 18Signalstaerke : -78 dB
+ 
+ ... Senden in 5 Minuten

@@ -29,13 +29,12 @@ Lade dir hier auf Github den Code herunter, den du benötigst!
 ## Auf die Plätze fertig los!
 
 ### Schritt 1
-In Arduino klickst du links oben, auf file und open
+In der Arduino-IDE über die Voreinstellungen die Update-Funktion der Bibliotheken “Beim Start nach Updates suchen” deaktivieren.
+Danach die für den beelogger notwendigen Bibliotheken in das Arduino-libraries-Verzeichnis kopieren.
+Die Bibliotheken aus dem beelogger-Paket nicht über die Arduino-Software aktualisieren.
 
 ### Schritt 2
-Suche den Ordner den du zuvor extrahiert hast
-
-### Schritt 3
-Geh in den Ordner und suche dir die Datei heraus, von der du den Auftrag bekommen hast diese zu konfigurieren, bzw erstelle eine neue Konfiguration. Bei Arduino Verständnis problemen gibt es eine Menge Hilfestellungen, ein paar davon verlinke ich dir.
+Erstelle einen Ordner in dem du programmieren wirst. Bei Arduino Verständnis problemen gibt es eine Menge Hilfestellungen, ein paar davon verlinke ich dir.
 
 *<a href="https://docs.arduino.cc"> Documentation Arduino (EN) </a> | 
 <a href="https://beelogger.de"> Belogger Webseite (DE) </a> | 
